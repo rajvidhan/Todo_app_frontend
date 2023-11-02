@@ -3,7 +3,7 @@ export const host = "http://localhost:3000";
 export const registerRoute = `${host}/api/auth/register`;
 export const loginRoute = `${host}/login`;
 
-const baseurl = "http://localhost:3000"
+const baseurl = "https://todo-app-backend-q2h8.onrender.com"
 
 const getAlltodo = (setToDo)=>{
     axios.get(baseurl)
