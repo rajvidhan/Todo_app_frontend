@@ -1,8 +1,21 @@
-import React from "react"
+import React,{useEffect} from "react"
+import Todocontainer from "./Components/Todocontainer"
+import Login from "./pages/Login"
 
+import Register from "./pages/Registeration"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import styles from "./pages/style.module.css"
 const App = ()=>{
-    return <div>
-     <h1> hii i am back in the work </h1>
-    </div>
+   
+
+   
+    
+    return <BrowserRouter>
+    <Routes>
+    <Route path="/" element={<Todocontainer />} />
+    <Route path="login" element={<Login />} />
+    <Route path="register" element={<Register />} />
+    </Routes>
+    </BrowserRouter>
 }
 export default App

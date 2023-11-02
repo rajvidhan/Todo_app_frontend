@@ -1,0 +1,94 @@
+
+body{
+    background-color:#D198C5FF ;
+}
+.container{ 
+  margin: auto;
+  
+  padding: 3rem 1rem;
+  background-color: #E0C568FF;
+  max-width: 600px;
+  border-radius:60px 6px;
+}
+.heading{
+    margin-top: 1rem;
+    text-align: center;
+}
+.top{
+    
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+
+}
+
+.maininput{
+    border: none;
+    width: 400px;
+    outline:none;
+    padding:0.5rem;
+    background: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+
+.add{
+    background-color:#D198C5FF;
+    color: white;
+    cursor: pointer;
+    padding: 0.4rem 1rem;
+    border-radius: 60px 6px;
+    
+}
+
+.updateicon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.deleteicon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.todo{
+position: relative;
+
+margin-top: 1rem;
+color: black;
+padding: 1.5rem 3rem;
+border-radius: 5px 30px;
+background-color:#D198C5FF;
+cursor: pointer;
+}
+
+
+.text{
+    font-size:25px;
+    font-family: Monospace;
+}
+
+.icons{
+    top:50%;
+    transform: translateY(-50%);
+    position: absolute;
+    right: 20px;
+    display: flex;
+    gap: 1.4rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{ 
+      margin-top: 50px;
+      }
+
+      .icons{
+        
+        gap: 2rem;
+    }
+
+}
+.list{
+    margin-top:50px;
+}

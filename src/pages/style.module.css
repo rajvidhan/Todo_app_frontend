@@ -1,0 +1,53 @@
+.container{
+    background-color: #E0C568FF;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 8rem;
+    padding: 3rem 1rem;
+    border-radius:60px 6px;
+}
+.heading{
+    font-family:cursive;
+    
+}
+.input{
+    border: none;
+    border-bottom:0.1rem solid black;
+    margin-top:23px;
+    margin-bottom:21px;
+    padding: 0.8 0.5rem;
+    width:80%;
+    outline:none;
+    background: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.submitbtn{
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    background: none;
+    cursor:pointer;
+    padding: 0.3rem;
+   border: none;
+   
+   border-right: 0.1rem solid black;
+   border-left: 0.1rem solid black;
+}
+.submitbtn:hover{
+
+    
+   border-bottom: 0.1rem solid black;
+  border-top: 0.1rem solid black;
+ }
+
+span{
+    margin-left: 1rem ;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size:1.4rem;
+}
